@@ -32,7 +32,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # 創建 fine-tune 文件
 openai.File.create(
-  file=open("clinic_qa.json", "rb"),
+  file=open("coffeeshopprepare.jsonl", "rb"),
   purpose='fine-tune'
 )
 
